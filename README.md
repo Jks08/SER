@@ -6,3 +6,6 @@ The Audio Recorder records the audio for 5 seconds and send it to the predictor.
 The predictor calls upon the ML model which is saved on the system as a '.h5' file. 
 The input is fed and analyzed by the Model.
 The output is given as a string. 
+
+The RAVDESS and TESS datasets are extracted and put together under one folder and then supplied to the ML Model.
+The Model has an accuracy of about 60% (very low), which can be imporoved by varying the optimizer values such as learning rate, decay rate, dropout, batch size, etc.
