@@ -9,3 +9,7 @@ The output is given as a string.
 
 The RAVDESS and TESS datasets are extracted and put together under one folder and then supplied to the ML Model.
 The Model has an accuracy of about 60% (very low), which can be imporoved by varying the optimizer values such as learning rate, decay rate, dropout, batch size, etc.
+
+Make sure that the dataset files are extracted and stored in one folder named as 'Ravtess' which should be stored in your Jupyter notebook path (or you can store it anywhere just be sure to make the corresponding changes to the Path.
+
+You can also merge all 3 code files in one noebook, but make sure to run them in the order as follows: ML Model -> Audio Recording -> Predictor 
