@@ -1,5 +1,5 @@
 # SER
-This Speech Emotion Recogniser(SER) was built using Jupyter Notebook. 
+A Speech Emotion Recogniser(SER). 
 It consists of an audio recorder code, a machine learning model and a predictor code to get the output.
 The machine learning model was trained using Convolution Neural Network(CNN) and ADAM optimizer. The datasets used were RAVDESS and TESS.
 The Audio Recorder records the audio for 5 seconds and send it to the predictor. 
